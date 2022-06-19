@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args){
 
         Random random = new Random();
-        // 3개의 값( 가위바위보) +1은 0이 아닌 1부터 시작하기위해
+        // 3개의 값( 가위바위보) +1은 0이 아닌 1부터 시작하기위해..
         int cpu = random.nextInt(3)+1;
         System.out.println("cpu: "+cpu);
 
